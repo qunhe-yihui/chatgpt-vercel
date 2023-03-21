@@ -63,7 +63,7 @@ export const post: APIRoute = async context => {
     }
 
     if (pwd && pwd !== password) {
-      throw new Error("密码错误，请联系网站管理员。")
+      throw new Error("密码错误，请通过[CF链接](https://cf.qunhequnhe.com/pages/viewpage.action?pageId=80634844583)获取**网站默认密码**。")
     }
 
     if (!messages?.length) {
